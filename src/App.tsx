@@ -16,7 +16,7 @@ function App() {
   const socialIconValues: SocialIconProps[] = [
     {
       type: "facebook",
-      link: "https://www.facebook.com/minhquan992",
+      link: "https://www.facebook.com/quantmvo",
     },
     {
       type: "linkedin",
@@ -37,7 +37,7 @@ function App() {
     },
     {
       label: "Location",
-      value: "Thu Duc City, Ho Chi Minh City",
+      value: "Go Vap District, Ho Chi Minh City",
       icon: (
         <FontAwesomeIcon
           className="text-red-600 text-lg"
@@ -47,14 +47,14 @@ function App() {
     },
     {
       label: "Company",
-      value: "KMS Healthcare",
+      value: "KMS Technology",
       icon: (
         <FontAwesomeIcon className="text-green-600 text-lg" icon={faBuilding} />
       ),
     },
     {
       label: "Birthday",
-      value: "Sep 9, 2000",
+      value: "September, 2000",
       icon: (
         <FontAwesomeIcon
           className="text-pink-600 text-lg"
